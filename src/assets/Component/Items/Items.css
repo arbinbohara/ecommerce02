@@ -1,0 +1,33 @@
+.item {
+  width: 250px;
+  height: 90vh;
+}
+.item img {
+  width: 100%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding-top: 15px;
+}
+.item p {
+  margin: 6px, 6px;
+}
+.item .item-price {
+  display: flex;
+  gap: 20px;
+}
+.item .item-price .item-price-new {
+  color: #374151;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item .item-price .item-price-old {
+  color: #8c8c8c;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}/*# sourceMappingURL=Items.css.map */
